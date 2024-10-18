@@ -1,63 +1,115 @@
 body {
     background-color: rgb(26, 26, 26);
+    /* Sets the background color to a dark gray using RGB values. */
 }
 
 h1 {
     font-family: "Roboto Flex", sans-serif;
+    /* Uses the Roboto Flex font for headings, with sans-serif as a fallback. */
     font-optical-sizing: auto;
+    /* Automatically adjusts the font size for better legibility. */
     font-weight: 1000;
+    /* Sets the font weight to the heaviest/boldest. */
     font-style: normal;
+    /* Keeps the font style normal (no italics). */
     color: #ffff;
+    /* Sets the text color to white. */
     font-variation-settings:
+        /* Fine-tunes specific features of the Roboto Flex font: */
         "slnt" 0,
+        /* Slant axis (controls the slant of the letters). 0 means no slant (upright letters). */
         "wdth" 151,
+        /* Width axis (adjusts the width of the characters). 151 is wider than the default. */
         "GRAD" 150,
+        /* Grade axis (changes the thickness of the letter strokes without affecting the width). */
         "XOPQ" 175,
+        /* X-opacity (controls the horizontal stroke contrast or how thick the strokes appear). */
         "XTRA" 468,
+        /* X-transparency (adds extra white space between horizontal strokes). */
         "YOPQ" 135,
+        /* Y-opacity (controls the vertical stroke contrast). A higher value makes strokes thicker. */
         "YTAS" 750,
+        /* Ascender height (adjusts the height of ascending characters like 'h' or 'k'). */
         "YTDE" -203,
+        /* Descender height (adjusts the length of descenders like 'g' or 'y'). Negative values lower the descender. */
         "YTFI" 738,
+        /* Adjusts the finial (curved ending strokes) for characters like 'e' or 'c'. */
         "YTLC" 514,
+        /* Lowercase height (adjusts the height of lowercase characters). */
         "YTUC" 712;
+    /* Uppercase height (adjusts the height of uppercase characters). */
 }
 
 p {
     color: #ffff;
+    /* Sets the text color to white for paragraph text. */
     font-family: "Roboto Flex", sans-serif;
+    /* Uses Roboto Flex font for paragraphs, with sans-serif as a fallback. */
     font-optical-sizing: auto;
+    /* Automatically adjusts the font size for better readability. */
     font-weight: 50;
+    /* Sets a very light font weight for the paragraphs (thinner text). */
     font-style: normal;
+    /* Specifies the normal style (no italics). */
     font-variation-settings:
+        /* Adjusts specific font features for paragraphs, different from the heading: */
         "slnt" 0,
+        /* No slant (upright letters). */
         "wdth" 100,
+        /* Default width for the font characters. */
         "GRAD" 0,
+        /* No extra thickness (default stroke thickness). */
         "XOPQ" 175,
+        /* Moderate stroke contrast for horizontal strokes. */
         "XTRA" 468,
+        /* Adds extra spacing between horizontal strokes. */
         "YOPQ" 25,
+        /* Thin vertical stroke contrast. */
         "YTAS" 750,
+        /* Ascender height adjusted for tall characters like 'b', 'd', or 'h'. */
         "YTDE" -203,
+        /* Descender height lowered for characters like 'g' or 'p'. */
         "YTFI" 738,
+        /* Adjusts the curved stroke endings for a smoother appearance. */
         "YTLC" 514,
+        /* Standard height for lowercase letters. */
         "YTUC" 712;
+    /* Standard height for uppercase letters. */
 }
 
 li {
     color: #ffff;
+    /* Sets the text color to white for list items. */
     font-family: "Roboto Flex", sans-serif;
+    /* Uses the Roboto Flex font for list items. */
     font-optical-sizing: auto;
+    /* Automatically adjusts the font size for better readability. */
     font-weight: 50;
+    /* Light font weight for list items, similar to paragraphs. */
     font-style: normal;
+    /* Normal font style (no italics). */
     font-variation-settings:
+        /* Font feature adjustments for list items: */
         "slnt" 0,
+        /* No slant for list item text. */
         "wdth" 100,
+        /* Default width for the characters. */
         "GRAD" 0,
+        /* No extra stroke thickness (default weight). */
         "XOPQ" 175,
+        /* Moderate stroke contrast for horizontal strokes. */
         "XTRA" 468,
+        /* Adds extra spacing between horizontal strokes. */
         "YOPQ" 25,
+        /* Thin vertical stroke contrast for cleaner appearance. */
         "YTAS" 750,
+        /* Adjusts ascender height for tall characters like 'h' or 'l'. */
         "YTDE" -203,
+        /* Descender height lowered for characters with tails like 'g' or 'q'. */
         "YTFI" 738,
+        /* Fine-tunes the finial, improving rounded stroke endings. */
         "YTLC" 514,
+        /* Standard height for lowercase letters. */
         "YTUC" 712;
+    /* Standard height for uppercase letters. */
 }
