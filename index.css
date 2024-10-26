@@ -12,8 +12,8 @@ h1 {
     font-style: normal;
     color: #ffff;
     font-variation-settings: "slnt" 0, "wdth" 151, "GRAD" 150, "XOPQ" 175, "XTRA" 468, "YOPQ" 135, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
-    font-size: 2em;
-    /* Consistent font size */
+    font-size: 2.5rem;
+    /* Adjusted for high-resolution displays */
     text-align: center;
     margin: 0.5em 0;
 }
@@ -23,20 +23,51 @@ li {
     color: #ffff;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 50;
+    font-weight: 400;
+    /* Adjusted weight for better readability */
     font-style: normal;
     font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 175, "XTRA" 468, "YOPQ" 25, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
-    font-size: 1em;
-    /* Consistent font size */
+    font-size: 1.2rem;
+    /* Increased for better readability on high-res screens */
     line-height: 1.5;
     /* Maintain line height for readability */
     margin: 0.5em 0;
     padding: 0 1em;
-    /* Keep this for some padding */
+    /* Keep padding for better spacing */
     word-wrap: break-word;
     /* Allow long words to break */
     white-space: normal;
     /* Allow normal wrapping */
 }
 
-/* Remove mobile-friendly adjustments */
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        /* Slightly smaller for mobile, but retains prominence */
+        margin: 1em 0;
+        /* Adjust margin for mobile */
+    }
+
+    p,
+    li {
+        font-size: 1rem;
+        /* Maintained size for readability on mobile */
+        padding: 0 0.5em;
+        /* Adjust padding for mobile */
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+        /* Further adjust for very small screens */
+    }
+
+    p,
+    li {
+        font-size: 0.95rem;
+        /* Further adjust for very small screens */
+    }
+}
