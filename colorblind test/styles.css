@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.plate {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.dot:nth-child(1) {
+    background-color: #f00;
+    width: 20px;
+    height: 20px;
+    top: 10%;
+    left: 10%;
+}
+
+.dot:nth-child(2) {
+    background-color: #0f0;
+    width: 30px;
+    height: 30px;
+    top: 20%;
+    left: 50%;
+}
+
+.dot:nth-child(3) {
+    background-color: #0000ff;
+    width: 25px;
+    height: 25px;
+    top: 70%;
+    left: 40%;
+}
+
+.dot:nth-child(4) {
+    background-color: #ffcc00;
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    left: 80%;
+}
+
+.dot:nth-child(5) {
+    background-color: #ff007f;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 30%;
+}
+
+.dot:nth-child(6) {
+    background-color: #00ffcc;
+    width: 15px;
+    height: 15px;
+    top: 60%;
+    left: 60%;
+}
+
+.dot:nth-child(7) {
+    background-color: #800080;
+    width: 20px;
+    height: 20px;
+    top: 40%;
+    left: 20%;
+}
+
+.dot:nth-child(8) {
+    background-color: #ff4500;
+    width: 35px;
+    height: 35px;
+    top: 10%;
+    left: 70%;
+}
